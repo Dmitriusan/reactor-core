@@ -1683,7 +1683,7 @@ public abstract class Mono<T> implements Publisher<T> {
 	}
 
 	/**
-	 * Triggering <strong>after</strong>the {@link Mono} terminates for any reason,
+	 * Triggering <strong>after</strong> the {@link Mono} terminates for any reason,
 	 * including cancellation. The terminating event ({@link SignalType#ON_COMPLETE},
 	 * {@link SignalType#ON_ERROR} and {@link SignalType#CANCEL}) is passed to the consumer,
 	 * which is executed after the signal has been passed downstream.
